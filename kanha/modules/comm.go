@@ -41,10 +41,9 @@ func cmd(command, description string) td.BotCommand {
 
 var AllCommands = BotCommands{
 	PrivateUserCommands: []td.BotCommand{
-		cmd("start", "🚀 Start the bot"),
-		cmd("help", "📖 Show the help menu"),
-		cmd("ping", "🏓 Check if the bot is alive"),
-		cmd("repo", "📦 Show source code repository"),
+		cmd("start", "Start bot"),
+		cmd("help", "Show the help menu"),
+		cmd("ping", "Check if the bot is alive"),
 		cmd("createplaylist", "🎶 Create a new playlist"),
 		cmd("deleteplaylist", "🗑️ Delete a playlist"),
 		cmd("addtoplaylist", "➕ Add a track to a playlist"),
@@ -72,18 +71,17 @@ var AllCommands = BotCommands{
 	},
 
 	GroupUserCommands: []td.BotCommand{
-		cmd("play", "🎵 Play a song"),
-		cmd("queue", "📜 Show the queue"),
+		cmd("play", " Play a song"),
+		cmd("queue", " Show the queue"),
 		cmd("position", "⏱️ Show the current position of the song"),
 		cmd("reload", "🔄 Reload the admin cache"),
 		cmd("authlist", "👥 List authorized users"),
-		cmd("repo", "📦 Show source code repository"),
 	},
 
 	GroupAdminCommands: []td.BotCommand{
 		// Playback
-		cmd("play", "🎵 Play a song"),
-		cmd("cplay", "🎵 Play in the linked channel"),
+		cmd("play", " Play a song"),
+		cmd("cplay", " Play in the linked channel"),
 		cmd("fplay", "⏩ Force play a song"),
 		cmd("cfplay", "⏩ Force play in the linked channel"),
 
