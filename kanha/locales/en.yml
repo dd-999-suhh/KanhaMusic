@@ -584,8 +584,8 @@ play_download_failed: "{emoji:❌} ᴅσᴡηʟσᴧᴅ ғᴧɪʟєᴅ. ᴘʟє�
 
 play_added_to_queue_single: |
   <blockquote><b>{emoji:💮} ɪηᴄσᴍɪηɢ ᴛʀᴧᴄᴋ ᴅєᴛєᴄᴛєᴅ : #{index}</b></blockquote>
-  <blockquote expandable><b>{emoji:🎋} ᴍєʟσᴅʏ :</b> <a href="{url}">{title}</a>
-  <b>{emoji:✨} ʟєηɢᴛʜ :</b> {duration}
+  <blockquote expandable><b>{emoji:🎋} ᴛɪᴛʟᴇ :</b> <a href="{url}">{title}</a>
+  <b>{emoji:✨} ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration}
   <b>{emoji:🥀} ʀєǫᴜєsᴛєʀ :</b> {by}
 
   {emoji:💐} sᴛᴧηᴅʙʏ, ʏσᴜʀ sєssɪση ʙєɢɪηs sʜσʀᴛʟʏ</blockquote>
@@ -979,7 +979,7 @@ speed_reset_success: "{emoji:✅} ᴘʟᴧʏʙᴧᴄᴋ sᴘєєᴅ ʀєsєᴛ �
 
 speed_set: "{emoji:🚀} ᴘʟᴧʏʙᴧᴄᴋ sᴘєєᴅ sєᴛ ᴛσ <b>{speed}x</b> ʙʏ {user}."
 
-start_private: "ʜєʟʟσ {user}, ᴍʏ ηᴧᴍє ɪs {bot}.\n\n<blockquote expandable>ɪ'ᴍ ᴧ ᴛєʟєɢʀᴧᴍ sᴛʀєᴧᴍɪηɢ ʙσᴛ ᴡɪᴛʜ sσᴍє ᴜsєғᴜʟ ғєᴧᴛᴜʀєs. sᴜᴘᴘσʀᴛɪηɢ ᴘʟᴧᴛғσʀᴍs ʟɪᴋє ʏσᴜᴛᴜʙє, sᴘσᴛɪғʏ, ᴊɪσsᴧᴧᴠη, sσᴜηᴅᴄʟσᴜᴅ єᴛᴄ.\n\nғєєʟ ғʀєє ᴛσ ᴧᴅᴅ ᴍє ᴛσ ʏσᴜʀ ɢʀσᴜᴘs. {emoji:👍}</blockquote>"
+start_private: "ʜєʟʟσ {user}, ᴍʏ ηᴧᴍє ɪs {bot}.\n\n<blockquote expandable>ɪ'ᴍ ᴧ ᴛєʟєɢʀᴧᴍ sᴛʀєᴧᴍɪηɢ ʙσᴛ ᴡɪᴛʜ sσᴍє ᴜsєғᴜʟ ғєᴧᴛᴜʀєs. sᴜᴘᴘσʀᴛɪηɢ ᴘʟᴧᴛғσʀᴍs ʟɪᴋє ʏσᴜᴛᴜʙє, sᴘσᴛɪғʏ, ᴊɪσsᴧᴧᴠη, sσᴜηᴅᴄʟσᴜᴅ єᴛᴄ.\n\nғєєʟ ғʀєє ᴛσ ᴧᴅᴅ ᴍє ᴛσ ʏσᴜʀ ɢʀσᴜᴘs. {emoji:💕}</blockquote>"
 
 start_group: "<b>{emoji:💫} ɪ’ᴍ ʜєʀє!</b> ᴛʀʏ ᴧ ᴄσᴍᴍᴧηᴅ… ɪғ ʏσᴜ ᴛʜɪηᴋ ʏσᴜ ᴄᴧη ʜᴧηᴅʟє ᴍє {emoji:😉}"
 
@@ -1001,10 +1001,10 @@ download_progress: |
 stream_play_fail: "{emoji:❌} ғᴧɪʟєᴅ ᴛσ ᴘʟᴧʏ ᴛʜє sσηɢ."
 
 stream_now_playing: |
-  <blockquote><b>{emoji:💮} ᴧᴄᴛɪᴠᴧᴛєᴅ. | єηᴊσʏ ᴛʜє ᴍᴜsɪᴄ |</b></blockquote>
-  <blockquote expandable>▫ <b>ᴍєʟσᴅʏ :</b> <a href="{url}">{title}</a>
-  ▫ <b>ʟєηɢᴛʜ :</b> {duration}
-  ▫ <b>ʀєǫᴜєsᴛєʀ :</b> {by}</blockquote>
+  <blockquote><b>{emoji:💕} sᴛʀᴇᴀᴍɪɴɢ ɴᴏᴡ ♪ </b></blockquote>
+  <blockquote expandable>✯<b> ᴛɪᴛʟᴇ :</b> <a href="{url}">{title}</a>
+  ✬<b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration}
+  ✭<b>ʀєǫᴜєsᴛєʀ :</b> {by}</blockquote>
 
 # 👑 Sudo / Owner Join Messages
 sudo_join_owner: "{emoji:👑} {user} — σᴡηєʀ σғ {bot} — ᴊᴜsᴛ єηᴛєʀєᴅ ᴛʜє ᴄʜᴧᴛ."
@@ -1033,9 +1033,9 @@ unmute_success: |
   {speed_line}
 
 # 🔊 Voice Chat Events
-voicechat_ended: "<b>{emoji:⚠️} ᴠɪᴅєσ ᴄʜᴧᴛ єηᴅєᴅ</b>\n\n<i>{emoji:⏰} ᴅᴜʀᴧᴛɪση: {duration}</i>"
+voicechat_ended: "<b>{emoji:🥀} ᴠɪᴅєσ ᴄʜᴧᴛ єηᴅєᴅ</b>\n\n<i>{emoji:⏰} ᴅᴜʀᴧᴛɪση: {duration}</i>"
 
-voicechat_started: "<b>{emoji:♻️} ᴠσɪᴄє ᴄʜᴧᴛ sᴛᴧʀᴛєᴅ!</b>\n\n<i>ᴜsє /play [sσηɢ ηᴧᴍє] ᴛσ ᴘʟᴧʏ ᴍᴜsɪᴄ.</i>"
+voicechat_started: "<b>{emoji:💐} ᴠσɪᴄє ᴄʜᴧᴛ sᴛᴧʀᴛєᴅ!</b>\n\n<i>ᴜsє /play [sσηɢ ηᴧᴍє] ᴛσ ᴘʟᴧʏ ᴍᴜsɪᴄ.</i>"
 
 
  # Playlist commands
