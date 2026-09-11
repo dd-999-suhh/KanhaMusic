@@ -57,7 +57,7 @@ var (
 	SetCmds        = getEnvBool("SET_CMDS", false)
 	MaxAuthUsers   = getEnvInt("MAX_AUTH_USERS", 25)
 
-	StartImages = getEnvStrings("START_IMAGES")
+	StartImages = getEnvStrings("START_IMAGES","https://n.uguu.se/lEAsLEik.jpg")
 
 	PingImage = getEnv(
 		"PING_IMG_URL",
