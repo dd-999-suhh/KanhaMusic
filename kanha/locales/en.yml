@@ -909,7 +909,7 @@ sudo_list_fetch_fail: "{emoji:❌} ғᴧɪʟєᴅ ᴛσ ɢєᴛ sᴜᴅσєʀs: 
 
 sudo_list_header: "{emoji:👑} <b>ᴄᴜʀʀєηᴛ sᴜᴅσєʀs:</b>"
 
-sudo_list_owner: "{index}. {user} — <b>σᴡηєʀ</b>"
+sudo_list_owner: " — <b>σᴡηєʀ</b>"
 
 sudo_list_entry: "{index}. {user}"
 
