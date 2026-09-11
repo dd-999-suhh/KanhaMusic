@@ -223,8 +223,8 @@ func GetPlayMarkup(chatID int64, r *RoomState, queued bool) td.ReplyMarkup {
 	})
 
 	rows = append(rows, []td.InlineKeyboardButton{
-		DataBtn("-𝟣𝟧ˢ", prefix+"seekback_15"),
-		DataBtn("𝟣𝟧ˢ+", prefix+"seek_15"),
+		DataBtn("-15𝑠𝑒𝑐", prefix+"seekback_15"),
+		DataBtn("+15𝑠𝑒𝑐", prefix+"seek_15"),
 	})
 
 	rows = append(rows, []td.InlineKeyboardButton{
@@ -263,15 +263,12 @@ func GetStartMarkup(chatID int64) td.ReplyMarkup {
 				UrlBtn(F(chatID, "UPDATES_BTN"), config.SupportChannel),
 				UrlBtn(F(chatID, "SUPPORT_BTN"), config.SupportChat),
 			},
-			{
-				UrlBtn(F(chatID, "SOURCE_BTN"), "https://github.com/Oyekanhaa/KanhaMusic"),
-			},
 		},
 	}
 }
 
 func GetRepoMarkup(chatID int64, devURL string) td.ReplyMarkup {
-	repoURL := "https://github.com/Oyekanhaa/KanhaMusic"
+	repoURL := "https://t.me/+43lfMuxCp3I3ZDRl"
 	if devURL == "" {
 		if config.DevURL != "" {
 			devURL = config.DevURL
@@ -280,7 +277,7 @@ func GetRepoMarkup(chatID int64, devURL string) td.ReplyMarkup {
 		} else if config.OwnerID != 0 {
 			devURL = fmt.Sprintf("tg://openmessage?user_id=%d", config.OwnerID)
 		} else {
-			devURL = "https://t.me/Oyekanhaa"
+			devURL = "https://t.me/+43lfMuxCp3I3ZDRl"
 		}
 	}
 	return &td.ReplyMarkupInlineKeyboard{
