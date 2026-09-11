@@ -979,7 +979,7 @@ speed_reset_success: "{emoji:✅} ᴘʟᴧʏʙᴧᴄᴋ sᴘєєᴅ ʀєsєᴛ �
 
 speed_set: "{emoji:🚀} ᴘʟᴧʏʙᴧᴄᴋ sᴘєєᴅ sєᴛ ᴛσ <b>{speed}x</b> ʙʏ {user}."
 
-start_private: "ʜєʟʟσ {user}, ᴍʏ ηᴧᴍє ɪs {bot}.\n\nɪ'ᴍ ᴧ ᴛєʟєɢʀᴧᴍ sᴛʀєᴧᴍɪηɢ ʙσᴛ ᴡɪᴛʜ sσᴍє ᴜsєғᴜʟ ғєᴧᴛᴜʀєs. sᴜᴘᴘσʀᴛɪηɢ ᴘʟᴧᴛғσʀᴍs ʟɪᴋє ʏσᴜᴛᴜʙє, sᴘσᴛɪғʏ, ᴊɪσsᴧᴧᴠη, sσᴜηᴅᴄʟσᴜᴅ єᴛᴄ.\n\nғєєʟ ғʀєє ᴛσ ᴧᴅᴅ ᴍє ᴛσ ʏσᴜʀ ɢʀσᴜᴘs. {emoji:👍}"
+start_private: "ʜєʟʟσ {user}, ᴍʏ ηᴧᴍє ɪs {bot}.\n\n<blockquote expandable>ɪ'ᴍ ᴧ ᴛєʟєɢʀᴧᴍ sᴛʀєᴧᴍɪηɢ ʙσᴛ ᴡɪᴛʜ sσᴍє ᴜsєғᴜʟ ғєᴧᴛᴜʀєs. sᴜᴘᴘσʀᴛɪηɢ ᴘʟᴧᴛғσʀᴍs ʟɪᴋє ʏσᴜᴛᴜʙє, sᴘσᴛɪғʏ, ᴊɪσsᴧᴧᴠη, sσᴜηᴅᴄʟσᴜᴅ єᴛᴄ.\n\nғєєʟ ғʀєє ᴛσ ᴧᴅᴅ ᴍє ᴛσ ʏσᴜʀ ɢʀσᴜᴘs. {emoji:👍}</blockquote>"
 
 start_group: "<b>{emoji:💫} ɪ’ᴍ ʜєʀє!</b> ᴛʀʏ ᴧ ᴄσᴍᴍᴧηᴅ… ɪғ ʏσᴜ ᴛʜɪηᴋ ʏσᴜ ᴄᴧη ʜᴧηᴅʟє ᴍє {emoji:😉}"
 
@@ -1001,7 +1001,7 @@ download_progress: |
 stream_play_fail: "{emoji:❌} ғᴧɪʟєᴅ ᴛσ ᴘʟᴧʏ ᴛʜє sσηɢ."
 
 stream_now_playing: |
-  <blockquote><b>{emoji:💮} ᴘʟᴧʏʙᴧᴄᴋ ᴧᴄᴛɪᴠᴧᴛєᴅ. | єηᴊσʏ ᴛʜє ᴍᴜsɪᴄ |</b></blockquote>
+  <blockquote><b>{emoji:💮} ᴧᴄᴛɪᴠᴧᴛєᴅ. | єηᴊσʏ ᴛʜє ᴍᴜsɪᴄ |</b></blockquote>
   <blockquote expandable>▫ <b>ᴍєʟσᴅʏ :</b> <a href="{url}">{title}</a>
   ▫ <b>ʟєηɢᴛʜ :</b> {duration}
   ▫ <b>ʀєǫᴜєsᴛєʀ :</b> {by}</blockquote>
