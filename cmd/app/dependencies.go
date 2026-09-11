@@ -31,7 +31,7 @@ func checkDependencies() error {
 		if _, err := exec.LookPath(bin); err != nil {
 			return fmt.Errorf(
 				"required dependency %q was not found in your PATH; "+
-					"please install %s and ensure it is accessible from PATH before starting KanhaMusic",
+					"please install %s and ensure it is accessible from PATH before starting Myanmar Music",
 				bin,
 				bin,
 			)
