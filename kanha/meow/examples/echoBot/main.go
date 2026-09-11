@@ -31,7 +31,7 @@ func main() {
 					{
 						Text: "GoTDBot GitHub",
 						Type: &gotdbot.InlineKeyboardButtonTypeUrl{
-							Url: "https://github.com/Kanha/Meow",
+							Url: "https://t.me/addlist/yswiR7RrcVwyOTY1",
 						},
 					},
 				},
