@@ -42,7 +42,7 @@ var (
 	OwnerID       = getEnvInt64("OWNER_ID", 0)
 	OwnerUsername = getEnv("OWNER_USERNAME", "")
 	DevURL        = getEnv("DEV_URL", getEnv("DEVELOPER_URL", ""))
-	DisableColour = getEnvBool("DISABLE_COLOUR", false)
+	DisableColour = getEnvBool("DISABLE_COLOUR", true)
 	MeowAPIURL    = getEnv("MEOW_API_URL", "https://music.yukiapi.site")
 	MeowAPIKey    = getEnv("MEOW_API_KEY")
 
@@ -54,7 +54,7 @@ var (
 	SupportChat    = getEnv("SUPPORT_CHAT", "")
 	SupportChannel = getEnv("SUPPORT_CHANNEL", "")
 	CookiesLink    = getEnv("COOKIES_LINK", "")
-	SetCmds        = getEnvBool("SET_CMDS", false)
+	SetCmds        = getEnvBool("SET_CMDS", true)
 	MaxAuthUsers   = getEnvInt("MAX_AUTH_USERS", 25)
 
 	StartImages = getEnvStrings("START_IMAGES")
